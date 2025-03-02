@@ -5,8 +5,11 @@
 // Angkot No. 2 beroperasi dengan baik dst.
 
 // Code disini
-i = 1;
-while (i <= 10) {
-  console.log('Angkot No. ' + i + ' beroperasi dengan baik');
-  i++;
+var jmlAngkot = 10;
+var noAngkot = 1;
+
+noAngkot= 1;
+while (noAngkot <= jmlAngkot) {
+  console.log('Angkot No. ' + noAngkot + ' beroperasi dengan baik');
+  noAngkot++;
 }
